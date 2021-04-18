@@ -26,7 +26,7 @@ align-items: center;}
 
 .first::before{content:"";
     position:absolute;
-    background: url('/images/pexels-imad-clicks-6478197.jpg') no-repeat center center/cover;
+    background: url('/whichplaces/images/pexels-imad-clicks-6478197.jpg') no-repeat center center/cover;
     background-position: center;
     opacity: 0.85;
     z-index: -3;
