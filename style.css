@@ -1,0 +1,209 @@
+ 
+*{margin: 0px 0px;
+padding: 0px 0px;} 
+
+/* navigaion.................... */
+#navigation{display: flex;
+align-items: center;}
+
+
+/* logo............*/
+
+#logo img{
+height: 68px;
+}
+#logo{margin: 3px 13px;}
+
+/* .............navbar........... */
+
+#navbar li a{list-style: none;
+color: rgb(253, 246, 248);
+font-family: 'RocknRoll One', sans-serif;
+}
+
+#navbar li{list-style: none;}
+
+#navbar li a{text-decoration: none;
+padding:3px 23px;}
+
+#navbar li a:hover{background-color: rgb(10, 8, 8);
+color: rgb(248, 246, 246);
+border-radius: 15px;}
+
+#navbar ul{display: flex;
+flex-wrap: wrap;}
+
+/* ..................navigation before........ */
+
+#navigation::before{
+    content:"";
+    position:absolute;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+    width: 100%;
+height: 100%;}
+
+#navigation{position:relative;}
+
+.first::before{content:"";
+    position:absolute;
+    background: url('/images/pexels-imad-clicks-6478197.jpg') no-repeat center center/cover;
+    background-position: center;
+    opacity: 0.85;
+    z-index: -3;
+    width: 100%;
+height: 100%;
+right: 0%;}
+
+/* -------------------------------------------------------Home--------------------------------------------------------------------- */
+
+.home1{display: flex;
+flex-direction: column;
+justify-content: center;
+height: 581px;
+width: 323px;
+padding: 4px 48px;
+text-align: center;
+color:white;
+font-family: 'RocknRoll One', sans-serif;}
+
+.home{display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.home1 h3{padding:13px 15px;
+font-size: 2.3em;
+font-family: 'Pacifico', cursive;
+color: #90969d;}                                                                               
+
+
+
+.home1 p{font-family: 'Original Surfer', cursive;
+    color: #fbf2f28c;}
+
+
+
+
+
+
+
+
+
+
+
+.home1 button{margin: 19px 114px;
+    padding: 7px 6px;
+    background-color: #616161;
+    color: white;
+
+
+    border-radius: 23px;
+    /* box-shadow: grey 1px 1px 32px 1px; */
+    text-align: center;
+
+    font-family: 'Dancing Script', cursive;}
+
+
+
+
+
+
+
+
+
+
+    .home1 button:hover{background-color: black;
+    color: white;}
+
+
+    .home1 p{font-family: 'Original Surfer', cursive;
+        color: #fbf2f28c;}
+
+
+
+
+/* ........................................................section......................................................................... */
+.item{border:2px solid gray;
+margin: 47px 55px;
+text-align: center;
+color: white;
+padding: 6px 7px;
+border-radius: 23px;
+box-shadow: 3px 3px 9px 1px grey;}
+.item img{height: 345px;
+display: block;
+width: 303px;
+margin: auto;}
+.section{display: flex;
+position: relative;
+/* flex-wrap: wrap;} */
+}
+.section::before{
+    content:"";
+    position:absolute;
+    background-color: black;
+    background-position: center;
+   z-index: -3;
+    width: 100%;
+height: 100%;
+right: 0%;   
+}
+
+.item h2{
+    font-family: 'Gloria Hallelujah', cursive;
+
+}
+.item p{font-family: 'Gloria Hallelujah', cursive;}
+
+@media (min-width:300px) and (max-width:702) { .item img{height:200px;
+width:150px;}}
+/* ........................................footer......................................................... */
+
+#footer{right: 0px;
+height: 45px;
+position: relative;}
+
+.footerlinks li{text-decoration: none;
+
+list-style: none;}
+
+
+
+.footerlinks li a{    color: #9e9393;;
+font-size: 20px;
+padding:0px 13px;
+font-family: 'Gloria Hallelujah', cursive;}
+
+
+
+.footerlinks ul{ display: flex;
+justify-content: center;
+align-items: center;
+margin: 0px 5px;
+padding:7px;}
+
+.info{text-align: center;
+font-family: 'Gloria Hallelujah', cursive;;
+justify-content: center;
+align-items: center;
+color: #9e9393;}
+
+#footer::before{
+    content: "";
+    position: absolute;
+    background-color: #481b1b;
+    opacity: 0.9;
+    z-index: -5;
+
+width: 100%;
+height: 126px;
+}
+footer{padding: 0px 0px;}
+
+.footerlinks li a:hover{
+    background-color: black;
+    color: white;
+    border-radius:15px;
+}
